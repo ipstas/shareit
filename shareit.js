@@ -7,19 +7,24 @@ ShareIt = {
       'facebook': {
         'appId': null,
         'version': 'v2.1',
-        'description': ''
+        'description': '',
+				'display': true
       },
       'twitter': {
-        'description': ''
+        'description': '',
+				'display': true
       },
       'googleplus': {
-        'description': ''
+        'description': '',
+				'display': true
       },
       'pinterest': {
-        'description': ''
+        'description': '',
+				'display': true
       },
       'instagram': {
-        'description': ''
+        'description': '',
+				'display': true
       }
     },
     siteOrder: ['facebook', 'twitter', 'pinterest', 'googleplus', 'instagram'],

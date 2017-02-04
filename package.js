@@ -1,12 +1,12 @@
 Package.describe({
   summary: 'A meteor package that makes social sharing easy',
   git: 'https://github.com/meteorclub/shareit',
-  version: '1.0.2',
-  name: "joshowens:shareit"
+  version: '1.0.3',
+  name: "ipstas:shareit"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom("METEOR@1.2");
+  api.versionsFrom("METEOR@1.3");
   api.use(['less', 'templating', 'underscore', 'jquery'], 'client');
   api.use(['fortawesome:fontawesome@4.2.0'], 'client');
 
